@@ -5,21 +5,15 @@ import java.util.*;
 
 public class OppgVeke36 {
 	public static void main(String[] args) {
+		
 		int faktor = getInt("faktoriell");
 		long res = faktoriell(faktor);
 		System.out.println("Faktoriell av : " + faktor + " er : " + res);
 		
 		lonnsKalkulator(getInt("skriv in løn "));
+		
 		karakter(getInt("skriv in karakterpoeng"));
 		
-	}
-	
-	private static int[] oddeTalMellom() {
-		int[] outp = {};
-		int nedre = getInt("nedre");
-		int ovre = getInt("ovre");
-		if(ovre < nedre);
-		return outp;
 	}
 	
 	private static int getInt(String namn)
