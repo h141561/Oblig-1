@@ -3,29 +3,11 @@ import static javax.swing.JOptionPane.showMessageDialog;
 public class Oppgv36 {
 
 	public static void main(String[] args) {
-		oddeTalMellom();
+	
 
 		
 	}
-	
-	private static int[] oddeTalMellom() {
-		int[] outp = {};
 
-		int nedre = getInt("nedre");
-		int ovre = getInt("ovre");
-		if(ovre > nedre)
-		{
-			if(nedre % 2 == 0)
-				++nedre;
-			for(int i = nedre; i < ovre; i +=2)
-			{
-				System.out.print(i + " ");
-			}
-		}
-		return outp;
-		
-	}
-	
 	private static int getInt(String namn)
 	{
 		return Integer.parseInt(showInputDialog(namn));
